@@ -1,0 +1,18 @@
+nav{
+     height: 80px;
+     width: 100%;
+     background-color: palevioletred;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     color: white;
+}
+nav .logo h1{
+     font-size: 40px;
+}
+nav .menu ul li{
+     float: left;
+     list-style: none;
+     padding: 0px 15px;
+     font-size: 20px;
+}
