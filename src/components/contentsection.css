@@ -1,0 +1,17 @@
+.contentsection{
+     height: calc(100vh - 80px);
+     /* height: 100%; */
+     width: 100%;
+     display: flex;
+
+}
+
+.content{
+     width: 55%;
+     height: 100%;
+     padding: 30px 40px;
+}
+.login{
+     width: 45%;
+     height: 100%;
+}
