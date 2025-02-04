@@ -1,34 +1,12 @@
 import React from 'react'
-import './App.css'
-import Login from './Login'
+import Login from './components/Login.js'
+import Signup from './components/Signup.js'
+import Landingpage from './components/Landingpage.js'
 
 function App() {
-
-  var name="abhishek";
-  var list=["Home","about","contact","career","services"]
-
   return (
     <>
-
-    <div className="container">
-      <h1>Hello user </h1>
-      <p></p>
-      <img src="" alt="" />
-      <input type="text" />
-      <ul>
-          {
-            list.map(function(value){
-              return <li>{value}</li>
-            })
-          }
-      </ul>
-      {/* {name} */}
-    </div>
-      <Login/>
-
-      <div>
-        
-      </div>
+    <Landingpage/>
     </>
   )
 }
